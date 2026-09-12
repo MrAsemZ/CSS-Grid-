@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 40px;
+}
+
+div{
+    font-size: 14px;
+}
+
+/**********************************
+*     CSS FlexBox Task            *
+*     Exercise 2 By Asem Al-Zaghal*
+**********************************/
