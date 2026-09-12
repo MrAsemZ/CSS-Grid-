@@ -1,0 +1,73 @@
+/* 1. Parent Container Grid Setup */
+body > div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "header  header"
+    "sidebar nav"
+    "sidebar article"
+    "footer  footer";
+  gap: 15px;
+  max-width: 1000px;
+  color: #ffffff;
+}
+
+#header, #sidebar, #nav, #article, #footer {
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+#header, #sidebar, #nav, #footer {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#header {
+  grid-area: header;
+  background-color: #FFDE17;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: #FF6B4A;
+}
+
+#nav {
+  grid-area: nav;
+  background-color: #00D8FF;
+}
+
+#article {
+  grid-area: article;
+  background-color: #B2C2DE;
+}
+
+#footer {
+  grid-area: footer;
+  background-color: #343A46;
+}
+
+#article {
+  text-align: left;
+}
+
+#article-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#article p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/**********************************
+*     CSS FlexBox Task            *
+*     Exercise 3 By Asem Al-Zaghal*
+**********************************/
