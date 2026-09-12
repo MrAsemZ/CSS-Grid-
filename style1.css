@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap:10px;
+
+}
+
+div{
+    background-color: #6A82E3;
+    width: 100px;
+    height: 100px;
+}
+
+/**********************************
+*     CSS FlexBox Task            *
+*     Exercise 1 By Asem Al-Zaghal*
+**********************************/
