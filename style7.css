@@ -1,0 +1,43 @@
+
+body {
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.outer-box {
+  border: 1px solid #7a8b94;
+  padding: 10px 15px 15px 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.container {
+  border: 1px solid #7a8b94;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.item {
+  background-color: #8499a5;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px 20px;
+  width: 120px;
+  text-align: center;
+}
+
+/**********************************
+*     CSS FlexBox Task            *
+*     Exercise 7 By Asem Al-Zaghal*
+**********************************/
